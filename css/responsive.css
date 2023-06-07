@@ -1,0 +1,653 @@
+@media only screen and (max-width: 767px){
+.d4l-menu ul.navbar-nav.ml-auto {
+        display: flex!important;
+}
+.list_right_main1s {
+	margin-top: 150px;
+}
+.d4l-menu #navbarNavDropdown li.active a, li.active .dropbtn {
+	    border-bottom: 2px solid #19508C;
+	}
+}
+@media only screen and (max-width:767px){
+.industries-served-section {
+    margin-top: 20px;
+	position: unset;
+}
+.pre-header-parent {
+    flex-wrap: wrap;
+	height: auto;
+	padding-top:20px;
+}
+.container {
+    max-width: 100%;
+}
+.pre-header-parent ul {
+    flex-direction: column;
+}
+.pre-header-parent .social-media ul {
+    flex-direction: row;
+	flex-wrap:wrap;
+}
+.contact-options, .social-media {
+    height: auto;
+}
+.pre-header-parent ul li {
+    margin-right: 14px;
+	margin-bottom:20px;
+}
+.ph-request-btn {
+    height: 37px;
+    font-size: 12px;
+    width: 131px;
+}
+.owl-theme .owl-controls {
+    bottom: 0;
+}
+.landing-section {
+    position: relative;
+    top: 0;
+    background: #dc6509;
+}
+
+.container.BL_container { padding-top: 30px; }
+
+.container.BL_container.BL_services_top {
+    padding-top: 0px;
+}
+
+.BL_Label {
+    padding: 0px 7px;
+}
+
+.BL_input img {
+
+    margin-top: 22px;
+}
+
+.contact-form-part{     padding: 20px 3px; }
+
+form.go-bottom div { width: 46%; margin-right: 7px; }
+
+.simplify {padding: 19px!important;}
+.about_section_main {width: 99%!important;}
+.about_d4 {padding: 10px 0px;}
+.about_content h1 {    margin-bottom: 14px;}
+.d4l-menu #navbarNavDropdown li.active a:after, li.active .dropbtn:after {
+    border-bottom:none;
+}
+.d4l-menu #navbarNavDropdown {
+    padding-left: 0px;
+}
+/*button.navbar-toggler {
+    display: block;
+    background: url(../images/D4-logistics-best-trucking-company-menuicon.png) no-repeat;
+    padding: 0;
+    border: 0;
+	background-size: 50px;
+    width: 50px;
+    background-position: 100%;
+    margin-left: auto;
+}*/
+.menu-icon-img{
+	display:inline-block;
+	align-self: center;
+    align-items: center;
+    margin-left: auto;
+}
+.d4l-menu ul.navbar-nav.ml-auto {
+    border-bottom: 1px solid #fff;
+    padding-bottom: 22px;
+    flex-direction: column;
+    background: #c45b0a;
+    text-align: left;
+    align-items: start;
+    padding-left: 15px;
+    padding-top: 10px;
+    margin-top: 41px;
+}
+.d4l-menu #navbarNavDropdown li {
+    margin-right: 0;
+    margin-bottom: 10px;
+    width: 100%;
+}
+.collapse {
+    position: absolute;
+    top: 78px;
+    width: 100%;
+    z-index: 999;
+}
+.owl-buttons {
+    bottom: 55px;
+}
+.txt-appr ul {
+    display: none;
+}
+.txt-appr h2 {
+    font-size: 21px;
+    line-height: 30px;
+	margin: 0px 0px 10px 0px;
+}
+.txt-appr h6 {
+    margin: 0px 0px 0px 0px;
+    font-size: 17px;
+    line-height: 24px;
+    margin-top: 100px;
+}
+.section_2_second h1 {
+    font-size: 15px;
+    padding-top: 10px;
+}
+.service2_third h1 {
+        font-size: 15px;
+    line-height: 25px;
+}
+.service2_third h2 {
+    font-size: 14px;
+    line-height: 20px;
+}
+.service2_right,.service2_right_img {
+    margin: 0px 10px;
+}
+.section_2_second p {
+    padding: 10px 0px;
+}
+.service2_third p {
+    padding-bottom: 10px;
+}
+.list2_card_head p {
+    line-height: 30px;
+}
+.list2_card_head h1 {
+    font-size: 15px;
+}
+.ind-served-scrim {
+    padding: 40px 20px;
+}
+.fel-part {
+    margin-right: 0px;
+    margin-bottom: 25px;
+}
+.industries-served-section.special-service-section p {
+    max-width: 90%;
+}
+.special-service-section .food-everage-list {
+    flex-wrap: wrap;
+}
+.industries-served-section.special-service-section {
+    margin-top: 0;
+}
+.fel-part {
+    margin-right: 0;
+	width:100%;
+}
+.list-of-companies {
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.list-of-companies img{margin-bottom:30px;}
+.fixed-right {
+    /* right: 0; */
+        top: 388px;
+    z-index: 99;
+}
+.special-service-section .fel-part {
+    width: 100%;
+}
+.list-of-companies img:first-child {
+    margin-bottom: 5px;
+}
+.got-it-button, .copyright-right {
+    text-align: center;
+    margin-top: 20px;
+}
+.fixed-down span.scroll-top {
+    display: block;
+}
+.fixed-down {
+    bottom: 50px;
+}
+}
+@media only screen and (min-width:768px) and (max-width:991px){
+	.industries-served-section {
+    margin-top: 20px;
+	position: unset;
+}
+.pre-header-parent {
+    flex-wrap: wrap;
+	height: auto;
+	padding-top:20px;
+}
+.container {
+    max-width: 100%;
+}
+.pre-header-parent ul {
+    flex-direction: column;
+}
+.pre-header-parent .social-media ul {
+    flex-direction: row;
+	flex-wrap:wrap;
+}
+.contact-options, .social-media {
+    height: auto;
+}
+.pre-header-parent ul li {
+    margin-right: 14px;
+	margin-bottom:20px;
+}
+.ph-request-btn {
+    height: 37px;
+    font-size: 12px;
+    width: 131px;
+}
+.owl-theme .owl-controls {
+    bottom: 0;
+}
+.landing-section {
+    position: relative;
+    top: 0;
+    background: #dc6509;
+}
+/*button.navbar-toggler {
+    display: block;
+    background: url(../images/D4-logistics-best-trucking-company-menuicon.png) no-repeat;
+    padding: 0;
+    border: 0;
+	background-size: 50px;
+    width: 50px;
+    background-position: 100%;
+    margin-left: auto;
+}*/
+.menu-icon-img{
+	display:inline-block;
+	align-self: center;
+    align-items: center;
+    margin-left: auto;
+}
+.d4l-menu ul.navbar-nav.ml-auto {
+    border-bottom: 1px solid #fff;
+    padding-bottom: 22px;
+    flex-direction: column;
+    background: #063263;
+    text-align: left;
+    align-items: start;
+    padding-left: 15px;
+    padding-top: 10px;
+}
+.d4l-menu #navbarNavDropdown li {
+    margin-right: 0;
+    margin-bottom: 10px;
+    width: 100%;
+}
+.collapse {
+    position: absolute;
+    top: 78px;
+    width: 100%;
+    z-index: 999;
+}
+.owl-buttons {
+    bottom: 55px;
+}
+.txt-appr ul {
+    display: none;
+}
+.txt-appr h2 {
+    font-size: 28px;
+    line-height: 30px;
+    margin: 0px 0px 15px 0px;
+}
+.txt-appr h6 {
+    margin: 0px 0px 20px 0px;
+    font-size: 20px;
+    line-height: 24px;
+}
+ .navbar.navbar-expand-lg.navbar-light.d4l-menu .navbar-collapse.collapse ul.navbar-nav.ml-auto{
+    display: none;
+}
+.txt-appr ul {
+    max-width: 100%;
+	display: block;
+}
+.food-everage-list {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+.fel-part {
+    width: 30%;
+    margin-right: 15px;
+    margin-bottom: 20px;
+}
+.industries-served-section.special-service-section p {
+    max-width: 95%;
+}
+.industries-served-section.special-service-section span {
+    min-height: 44px;
+}
+.industries-served-section.special-service-section ul {
+    padding-top: 24px;
+}
+.list-of-companies {
+    margin-top: 40px;
+	justify-content:center;
+}
+.list-of-companies img {
+    margin-right: 30px;
+}
+}
+
+@media only screen and (min-width:992px) and (max-width:1200px){
+.container {
+	width: 100%;
+    max-width: 97%;
+}
+.pre-header-parent ul li {
+    font-size: 12px;
+    margin-right: 20px;
+}
+.txt-appr ul {
+    max-width: 98%;
+}
+.txt-appr h2 {
+    margin: 0px 0px 16px 0px;
+    font-size: 28px;
+    line-height: 34px;
+}
+.txt-appr h6 {
+    margin: 0px 0px 15px 0px;
+    font-size: 21px;
+    line-height: 28px;
+}
+.owl-buttons {
+    bottom: 63px;
+}
+.fixed-right {
+    right: -62px;
+    z-index: 9999;
+    top: 445px;
+}
+.food-everage-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.fel-part {
+    width: 27%;
+    margin-right: 15px;
+    margin-bottom: 28px;
+}
+.industries-served-section.special-service-section p {
+    max-width: 83%;
+}
+.industries-served-section.special-service-section ul {
+    text-align: left;
+    padding-top: 22px;
+    min-height: 200px;
+    max-height: 200px;
+}
+.d4l-menu #navbarNavDropdown li a {
+    font-size: 12px;
+}
+.d4l-menu #navbarNavDropdown li {
+    margin-right: 20px;
+}
+}
+
+@media only screen and (min-width:1201px) and (max-width:1700px){
+.container {
+    width: 100%;
+    max-width: 92%;
+    margin: 0px auto;
+}
+.txt-appr ul {
+    float: left;
+    max-width: 68%;
+}
+.owl-buttons {
+    bottom: 143px;
+}
+.header-slider .owl-theme .owl-controls .owl-buttons .owl-prev {
+	    background-position: 3%;
+}
+.header-slider .owl-theme .owl-controls .owl-buttons .owl-next {
+	background-position: 92%;
+}
+.industries-served-section.special-service-section ul {   
+		min-height: 215px;
+    max-height: 215px;
+	padding-top: 26px;
+}
+.industries-served-section.special-service-section span {
+	    min-height: 44px;
+    max-height: 44px;
+}
+.special-service-section .fel-part {
+    padding: 23px;
+}
+.fixed-right {
+    top: 335px;
+}
+.contact-form-part {
+    padding: 20px 15px;
+}
+}
+
+
+
+
+
+
+
+
+/*************************************** Services-Categories  start****************************************/
+
+
+@media only screen and (min-width:320px) and (max-width:600px){ 
+
+    .testimonial img { height: 170px; }
+
+    .BL_special_services_inner { bottom: 0; height: auto }
+
+
+.BL_special_services_img1,.BL_special_services_img2,.BL_special_services_img3,.BL_special_services_img4,.BL_special_services_img5,.BL_special_services_img6 { background-size: cover; background-size: cover;margin-bottom: 30px; border-radius: 30px; }
+
+
+}
+
+@media only screen and (min-width:601px) and (max-width:767px){
+
+.BL_special_services_img1,.BL_special_services_img2,.BL_special_services_img3,.BL_special_services_img4,.BL_special_services_img5,.BL_special_services_img6 { background-size: cover; background-size: cover;margin-bottom: 30px; border-radius: 30px; }
+
+}
+
+
+@media only screen and (min-width:768px) and (max-width:991px) {
+
+    .BL_special_services_inner { bottom: 0; height: auto }
+
+.BL_special_services_img1,.BL_special_services_img2,.BL_special_services_img3,.BL_special_services_img4,.BL_special_services_img5,.BL_special_services_img6 { background-size: cover; background-size: cover;margin-bottom: 30px; border-radius: 30px; }    
+
+}
+
+@media only screen and (min-width:992px) and (max-width:1199px) {
+
+.BL_special_services_inner { bottom: 0; height: auto }
+
+.BL_special_services_img1,.BL_special_services_img2,.BL_special_services_img3,.BL_special_services_img4,.BL_special_services_img5,.BL_special_services_img6 { background-size: cover; background-size: cover;margin-bottom: 30px; border-radius: 30px; }    
+
+
+}
+
+@media only screen and (min-width:1200px) and (max-width:1320px){
+
+ .BL_special_services_inner { bottom: 0; height: auto }
+
+ .BL_special_services_img1,.BL_special_services_img2,.BL_special_services_img3,.BL_special_services_img4,.BL_special_services_img5,.BL_special_services_img6 { background-size: cover; background-size: cover;margin-bottom: 30px; border-radius: 30px; }    
+
+ 
+
+}
+
+/***************************************************END*************************************************/
+
+
+
+/****************************************************Company start***************************************************/
+
+@media only screen and (min-width:320px) and (max-width:600px){
+
+    .about_content h1{ font-size: 19px; }
+
+    .about_content p { line-height: 27px; }
+
+    .certifications-section h1 { font-size: 32px; }
+
+    .need_help h1 { line-height: 30px; }
+
+    .txt-appr h6 { margin-top: 0px; }
+
+
+}
+
+@media only screen and (min-width:601px) and (max-width:767px) {
+
+     .txt-appr h6 { margin-top: 0px; }
+}
+
+
+/*****************************************************END***************************************************/
+
+
+/****************************************************transit_calculaor start************************************/
+
+@media only screen and (min-width:320px) and (max-width:600px) {
+
+    .BL_Label input { width: 100% }
+
+    .BL_input img{  margin: 20px 0px; }
+
+    button.btn.submit.BL_btn.submit { margin-left: 0px; margin: 20px 20px; }
+}
+
+@media only screen and (min-width:992px) and (max-width:1199px) {
+
+    button.btn.submit.BL_btn.submit { width: auto; margin-left: 0px; font-size: 16px; }
+}
+
+
+
+
+/******************************************************* END************************************************************/
+
+/*****************************************Contact_Us******************************************************/
+
+@media only screen and (min-width:320px) and (max-width:600px) {
+
+.BL_contact_detalis h1 { font-size: 27px; }
+
+.BL_contact_detalis_inner { margin: 50px 0px 30px 0px; }
+
+.BL_work_hours_text { top: 0px; }
+
+.BL_contact_detalis { margin: 0px auto; }
+
+.col-lg-8.col-md-8.col-sm-12.col-xs-12.BL_backimg::before { background: none; }
+
+.BL_robat { display: block; }
+
+}
+
+@media only screen and (min-width:601px) and (max-width:767px) {
+
+.col-lg-8.col-md-8.col-sm-12.col-xs-12.BL_backimg::before { background: none; } 
+}
+
+@media only screen and (min-width:768px) and (max-width:991px) {
+
+.col-lg-8.col-md-8.col-sm-12.col-xs-12.BL_backimg::before { background: none; }
+
+}
+
+@media only screen and (min-width:992px) and (max-width:1199px) {
+
+ul.BL_icon { width: 184px; }
+
+}
+/***********************************************END****************************************************/
+
+
+/***************************************************10.09.20*********************************************************/
+
+
+@media only screen and (min-width:320px) and (max-width:767px)  {
+
+    .list_btn {
+ 
+    padding: 16px 10px;
+    margin-right: 45px;
+}
+
+.list2_head {
+
+    padding-bottom: 0px;
+    margin-bottom: 20px;
+}
+
+.list2_head select  {
+        width: 130px;
+}
+
+.list2_head i.list_three_lines {
+
+        padding-right: 25px;
+        margin-left: 10px;
+}
+
+
+.BL_special_services_inner.BL_height_text p {
+    
+    height: 120px;
+}
+
+.BL_special_services_inner span,.BL_special_services_inner .BL_special_services_text {
+    display: block;
+}
+
+.BL_special_services_img1 h1, .BL_special_services_img2 h1, .BL_special_services_img3 h1, .BL_special_services_img4 h1, .BL_special_services_img5 h1, .BL_special_services_img6 h1{
+
+    width: 100%;
+}
+
+.BL_special_services_inner{height: 308px;}
+
+.bennerhome_img img { height: 200px; }
+
+.homepage_banner {
+    margin-left: 42px!important;
+    margin-top: -14px!important;
+}
+
+.industries-served-section h1 {
+
+    font-size: 25px;
+}
+
+.BL_input img {
+
+    margin-left: 35%;
+}
+
+.BL_mapheading h1, .BL_mapheading p{
+
+    font-size: 13px;
+
+}
+
+
+}
+
+
+
+
+/*****************************************************END********************************************************************/

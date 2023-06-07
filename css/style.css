@@ -1,0 +1,1841 @@
+@charset "utf-8";
+/* CSS Document */
+html{scroll-behavior: smooth;}
+*{ margin:0px;	padding:0px;}
+h1,h2,h3,h4,h5,h6 { font-weight:normal; font-style:normal;}
+a {text-decoration:none!important; outline:none;}
+img { border:0px; outline:none;  }
+ul{ list-style:none; margin:0px;}
+li{list-style-type:none;}
+html,body{ height:100%;}
+.right-padding{padding-right:0!important;}
+.left-padding{padding-left:0!important;}
+.clr{clear:both;}
+.fa, .far, .fas {font-family: fontawesome!important;}
+.fa:hover{cursor:pointer;}
+.no-padding{padding-left:0px !important;padding-right:0px !important;}
+
+body{
+	font-family: 'Open Sans', sans-serif;
+	-webkit-font-smoothing: subpixel-antialiased;
+	-webkit-text-stroke: 1px transparent;
+	background:#fff;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap');
+
+.container {
+    width: 100%;
+    max-width: 82.2%;
+    margin: 0px auto;
+}
+
+
+/* slider */
+
+.testimonial{ margin: 0 0px 0px; }
+.testimonial img {
+    width: 100%;
+    height: 340px;
+}
+
+.testimonial .pic{
+    display: inline-block;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    margin: 0 15px 15px 0;
+}
+.testimonial .pic img{
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+.testimonial .testimonial-profile{
+    display: inline-block;
+    position: relative;
+    top: 15px;
+}
+.testimonial .title{
+    display: block;
+    font-size: 20px;
+    font-weight: 600;
+    color: #2f2f2f;
+    text-transform: capitalize;
+    margin: 0 0 7px 0;
+}
+.testimonial .post{
+    display: block;
+    font-size: 14px;
+    color: #5d7aa7;
+}
+.testimonial .description{
+    padding: 20px 22px;
+    background: #1f487e;
+    font-size: 15px;
+    color: #fff;
+    line-height: 25px;
+    margin: 0;
+    position: relative;
+}
+.testimonial .description:before,
+.testimonial .description:after{
+    content: "";
+    border-width: 18px 0 0 18px;
+    border-style: solid;
+    border-color: #5d7aa7 transparent transparent;
+    position: absolute;
+    bottom: -18px;
+    left: 0;
+}
+.testimonial .description:after{
+    border-width: 18px 18px 0 0;
+    left: auto;
+    right: 0;
+}
+.owl-theme .owl-controls{
+    margin-top: 10px;
+    margin-left: 30px;
+}
+.owl-theme .owl-controls .owl-buttons div{
+    opacity: 0.8;
+    background: #fff;
+}
+.owl-prev:before,
+.owl-next:before{
+    content: "\f053";
+    font-family: "Font Awesome 5 Free"; font-weight: 900;
+    font-size: 20px;
+    color: #1f487e;
+}
+.owl-next:before{ content: "\f054"; }
+.owl-theme .owl-controls .owl-page span {
+    background: transparent!important;
+	opacity:1!important;
+	border:2px solid #fff!important;
+}
+.owl-theme .owl-controls .owl-page span:hover {
+	opacity:1!important;
+}
+.owl-theme .owl-controls .owl-page:hover span {
+	opacity:1!important;
+}
+.owl-theme .owl-controls .owl-page.active span {
+    background: transparent!important;
+	border: 2px solid #F58026!important;
+}
+.owl-controls {
+    position: absolute;
+    bottom: 42px;
+    left: 0;
+    right: 0;
+}
+.testimonial.t-a {
+    position: relative;
+}
+.txt-appr {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+	width: 100%;
+	display: flex;
+    align-items: center;
+}
+.txt-appr h2 {
+    visibility: visible;
+    animation-delay: 0.3s;
+    animation-name: fadeInUp;
+    margin: 0px 0px 26px 0px;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 44px;
+    text-transform: uppercase;
+    color: #19508C;
+}
+.animated {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+.txt-appr h6 {
+    margin: 0px 0px 30px 0px;
+    font-weight: bold;
+	font-size: 24px;
+	line-height: 33px;
+	color: #FFFFFF;
+}
+.txt-appr ul {
+    float: left;
+    max-width: 61%;
+}
+.txt-appr ul li {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+    float: left;
+    margin-right: 0;
+    width: 158px;
+	background: url(../images/D4-logistics-best-trucking-company-list-symbol.png) no-repeat;
+    background-position: 0% 50%;
+    padding-left: 12px;
+}
+.header-slider .owl-theme .owl-controls .owl-buttons .owl-prev {
+    background: url(../images/D4-logistics-best-trucking-company-arrow-left.png) no-repeat;
+    width: 50%;
+    height: 29px;
+    background-size: 42px;
+    padding: 0;
+    margin: 0;
+	opacity:1;
+	    background-position: 6%;
+}
+.header-slider .owl-theme .owl-controls .owl-buttons .owl-next {
+    background: url(../images/D4-logistics-best-trucking-company-arrow-right.png) no-repeat;
+    width: 50%;
+    height: 29px;
+    background-size: 42px;
+    padding: 0;
+    margin: 0;
+	opacity:1;
+	background-position: 94%;
+}
+.header-slider .owl-theme .owl-controls .owl-buttons .owl-next:before{display:none;}
+.owl-buttons {
+    display: flex;
+    align-items: center;
+    bottom: 276px;
+    position: absolute;
+    width: 100%;
+}
+.owl-theme .owl-controls {
+    margin-top: 0px!important;
+    text-align: center;
+    bottom: 130px;
+}
+/*/slider */
+
+/* pre header */
+.pre-header-parent ul li {
+    display:flex;
+	font-weight: normal;
+font-size: 14px;
+line-height: 19px;
+color: #FFFFFF;
+margin-right:30px;
+    align-items: center;
+}
+.pre-header-parent ul li:last-child{margin-right:0;}
+.pre-header-parent ul li img{margin-right:10px;align-self:center;}
+.pre-header-parent ul {
+    display:flex;
+}
+.pre-header-parent {
+    background: #19508C;
+    height: 60px;
+	display: flex;
+	    align-items: center;
+    align-self: center;
+}
+.social-media {
+    justify-content: flex-end;
+    display: flex;
+}
+.ph-request-btn {
+    background: #F58026;
+    height: 60px;
+    border-radius: 0;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    width: 175px;
+}
+.contact-options, .social-media {
+    height: 65px;
+    display: flex;
+    align-items: center;
+    align-self: center;
+}
+.facebook:hover svg path {
+    fill: #3b5998;
+	transition: 0.3s;
+}
+.twitter:hover svg path {
+    fill: #00acee;
+	transition: 0.3s;
+}
+.linkedin:hover svg path {
+    fill: #2867B2;
+	transition: 0.3s;
+}
+.gplus:hover svg path {
+    fill: #db4a39;
+	transition: 0.3s;
+}
+.ph-request-btn:hover {
+    color: #fff;
+    background: #d2600a;
+	transition: 0.3s;
+}
+/* End pre header */
+
+/* Menu */
+.d4l-menu a {
+    height: auto;
+	padding: 0;
+}
+button.navbar-toggler{display:none;}
+.dropbtn {
+  background-color: transparent;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 18px;
+    line-height: 25px;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+  background-color: #2980B9;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown a:hover {background-color: #ddd;}
+
+.show {display: block;}
+.d4l-menu {
+    float: left;
+    width: 100%;
+    display: flex;
+}
+.d4l-menu #navbarNavDropdown {
+    margin-left: auto;
+	align-items: center;
+    align-self: center;
+	padding-right:0!important;
+}
+.d4l-menu #navbarNavDropdown li a {
+    font-weight: 600;
+	font-size: 18px;
+	line-height: 25px;
+	color: #fff;
+	padding:0;
+}
+.d4l-menu #navbarNavDropdown li.nav-item.button-list {
+    margin-right: 10px;
+}
+.d4l-menu #navbarNavDropdown li {
+	margin-right:40px;
+}
+.d4l-menu #navbarNavDropdown li:last-child {
+	margin-right:0px;
+}
+button.btn.login {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background: #F58026;
+    border-radius: 5px;
+    width: 100px;
+    height: 40px;
+}
+button.btn.tracking {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background: #19508C;
+    border-radius: 5px;
+    width: 100px;
+    height: 40px;
+}
+.d4l-menu ul.navbar-nav.ml-auto {
+    align-items: center;
+    align-self: center;
+    display: flex;
+	border-bottom: 1px solid #fff;
+    padding-bottom: 22px;
+}
+.landing-section {
+    float: left;
+    width: 100%;
+    position: absolute;
+    top: 20px;
+    z-index: 9;
+}
+.header-slider {
+    position: relative;
+}
+.d4l-menu #navbarNavDropdown li.active a, li.active .dropbtn {
+    color: #19508C;
+	position:relative;
+}
+.d4l-menu #navbarNavDropdown li.active a:after, li.active .dropbtn:after {
+    content: '';
+    border-bottom: 3px solid #19508C;
+    height: 3px;
+    width: 55px;
+    position:absolute;
+	bottom:-31px;
+	left: 0;
+    right: 0;
+    text-align: center;
+    margin: auto;
+}
+.d4l-menu #navbarNavDropdown li a:hover, li .dropbtn:hover{
+	color:#19508C;
+	background:transparent;
+	transition: 0.3s;
+}
+button.btn.login:hover {
+    background: #ca5c08;
+	transition: 0.3s;
+}
+button.btn.tracking:hover {
+    background: #04376f;
+	transition: 0.3s;
+}
+.dropbtn:hover, .dropbtn:focus {
+    background-color: transparent;
+}
+.dropbtn:hover, .dropbtn:focus {
+    outline: unset;
+}
+.d4l-menu #navbarNavDropdown li div#myDropdown a {
+    color: #19508c;
+}
+.d4l-menu #navbarNavDropdown li div#myDropdown  {
+   padding:8px 0px 8px 10px;
+}
+li.nav-item svg {
+    margin-left: 5px;
+}
+.dropdown:hover svg path {
+    fill: #19508C!important;
+}
+
+/* Menu */
+
+/* industries served */
+.industries-served-section {
+    float: left;
+    width: 100%;
+	margin-top: -95px;
+    z-index: 1;
+    position: relative;
+}
+.ind-served-scrim {
+    float: left;
+    width: 100%;
+    text-align: center;
+	background: #FFFFFF;
+    /*border-radius: 20px;*/
+    padding-top: 40px;
+    box-shadow: 0px 1px 15px rgba(0, 0, 0, 0.1);
+}
+.industries-served-section h1 {
+    width: 100%;
+	font-weight: bold;
+    font-size: 36px;
+    line-height: 49px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #272B30;
+    margin: 0;
+}
+.industries-served-section p {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: #53575B;
+    margin-top: 34px;
+	    margin-bottom: 42px;
+}
+.fel-part {
+    width: 18.9%;
+    float: left;
+    margin-right: 15px;
+    padding: 55px 0px;
+}
+.fel-part:hover{
+    background: #F79951;
+    box-shadow: 0px 1px 15px rgba(0, 0, 0, 0.1);
+}
+.fel-part:last-child {
+    margin-right: 0px;
+}
+.fel-part span {
+    display: block;
+    margin-top: 20px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    /*color: #53575B;*/
+    color: #FFFFFF;
+}
+
+/* End industries served */
+
+/* special service */
+.industries-served-section.special-service-section {
+    margin-top: 20px;
+}
+.industries-served-section.special-service-section p {
+    line-height: 36px;
+    text-align: center;
+    color: #53575B;
+    margin-top: 24px;
+	margin-bottom: 42px;
+	max-width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.food-everage-list {
+    float: left;
+    width: 100%;
+    background: #19508C;
+}
+.special-service-section .food-everage-list {
+    display: flex;
+    align-items: center;
+}
+.food-everage-list-back{
+    background: #FFFBF8;
+}
+.fel-part{
+    background: #19508C;
+}
+.follow-us ul li.facebook-border {
+    border: 1px dashed #3B5998;
+}
+.follow-us ul li a.facebook svg path{
+    fill: #3B5998;
+}
+.follow-us ul li:hover svg path{
+    fill: #fff!important;
+}
+.follow-us ul li.twitter-border {
+    border: 1px dashed #3B5998;
+}
+.follow-us ul li a.twitter svg path{
+    fill: #00ACEE;
+}
+.follow-us ul li.linkedin-border {
+    border: 1px dashed #0E76A8;
+}
+.follow-us ul li a.linkedin svg path{
+    fill: #0E76A8;
+}
+.follow-us ul li.gplus-border {
+    border: 1px dashed #DB4A39;
+}
+.follow-us ul li a.gplus svg path{
+    fill: #DB4A39;
+}
+.industries-served-section.special-service-section ul {
+    text-align: left;
+	    padding-top: 38px;
+		min-height: 187px;
+    max-height: 187px;
+}
+.industries-served-section.special-service-section .ind-served-scrim {
+    box-shadow: unset;
+}
+.industries-served-section.special-service-section ul li{
+    font-weight: normal;
+font-size: 14px;
+line-height: 19px;
+color: #383C41;
+margin-bottom:20px;
+background:url(../images/D4-logistics-best-trucking-company-sslist-line.png) no-repeat;
+background-position: 0 39%;
+    padding-left: 10px;
+    color: #FFFFFF;
+}
+.industries-served-section.special-service-section span {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22px;
+    text-transform: uppercase;
+    color: #343739;
+	margin-top:30px;
+	text-align:left;
+    color: #FFFFFF;
+}
+.fel-part:hover span {
+    color: #19508C;
+}
+.industries-served-section.special-service-section .fel-part img{height:77px;}
+.special-service-section .fel-part  {
+    text-align: left;
+	 box-shadow: 0px 1px 15px rgba(0, 0, 0, 0.1);
+	 padding:30px;
+}
+.special-service-section .fel-part  {
+   
+}
+.btn.ss-btn {
+    background: transparent;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+    text-decoration-line: underline;
+    text-transform: uppercase;
+    /*color: #343639;*/
+	padding:0;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+button.btn.ss-btn:hover {
+    background: #19508C;
+    border: 1.5px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+.special-service-section .fel-part:hover {
+    box-shadow: 0px 0px 15px 2px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+    cursor: pointer;
+}
+.btn.ss-btn:hover {
+    background: #F58026;
+    border-radius: 10px;
+    width: 175px;
+    height: 50px;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.btn.ss-btn:hover svg path{fill:#fff;}
+.btn.ss-btn svg {margin-right:10px;}
+.industries-served-section.special-service-section .ind-served-scrim {
+    padding: 40px 0px;
+}
+.industries-served-section.special-service-section {
+    margin-bottom: 30px;
+}
+/* End special service */
+
+/* certifications */
+.certifications-section {
+    float: left;
+    width: 100%;
+	text-align: center;
+	background: #FAFAFA;
+	padding:60px 0px 35px 0px;
+}
+.list-of-companies {
+    display: flex;
+    align-self: center;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+	    margin-top: 40px;
+}
+.certifications-section h1 {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 49px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #272B30;
+	margin:0 0 10px 0;
+}
+/* certifications */
+
+
+/* footer */
+.who-we h3 {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 27px;
+    text-transform: uppercase;
+    color: #1C1D20;
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+.who-we p {
+    font-weight: normal;
+	font-size: 16px;
+	line-height: 30px;
+	color: #47494A;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+.links h3, .follow-us h3 {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 27px;
+    text-transform: uppercase;
+    color: #1C1D20;
+}
+.links ul li {
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    color: #47484A;
+    margin-bottom: 12px;
+	padding-left:10px;
+	background:url(../images/D4-logistics-best-trucking-company-footer-line.png) no-repeat;
+    background-position: 0;
+}
+.links ul li:last-child {
+    margin-bottom: 4px;
+}
+.links ul{margin-top:30px;}
+.follow-us li {
+    float: left;
+    border: 1px dashed #47484A;
+    box-sizing: border-box;
+    border-radius: 100%;
+    padding: 12px 8px 3px 8px;
+    height: 42px;
+    width: 42px;
+    text-align: center;
+    margin: auto;
+	margin-right:20px;
+}
+.follow-us li:last-child {margin-right:0;}
+.follow-us li svg path {
+    fill:#47484A;
+}
+.follow-us ul {
+    margin-top:30px;
+}
+.follow-us li:hover {
+    background: #F58026;
+	transition:0.3s;
+}
+.follow-us li:hover svg path {
+	fill:#fff;
+}
+.follow-us h3.git {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 27px;
+    text-transform: uppercase;
+    color: #1C1D20;
+	margin-top:80px;
+	display:inline-block;
+}
+ul.follow-sec-sec li {
+    float: none;
+    width: 100%;
+    border: 0;
+    padding: 0;
+    text-align: left;
+}
+
+ul.follow-sec-sec {
+    margin-top: 20px;
+}
+.contact-form-part form {
+	 width: 100%;
+	 float: left;
+	 margin: 0px;
+}
+ form > div {
+	 position: relative;
+	 overflow: hidden;
+}
+ form input, form textarea {
+	 width: 100%;
+    border: 0;
+    border-bottom: 1px solid #E3E3E3;
+    background: none;
+    position: relative;
+    top: 20px;
+    left: 0;
+    z-index: 1;
+    padding: 8px 12px;
+    outline: 0;
+}
+form.go-bottom input::placeholder {
+    color: #767676;
+}
+ form input:valid, form textarea:valid {
+	 background: white;
+}
+ form input:focus, form textarea:focus {
+	 border-color: #19508C;
+}
+form input:focus + label, form textarea:focus + label {
+    background: transparent;
+    color: white;
+    font-size: 70%;
+    padding: 1px 6px;
+    z-index: 2;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 20px;
+    color: #767676;
+}
+ form label {
+	 transition: background 0.2s, color 0.2s, top 0.2s, bottom 0.2s, right 0.2s, left 0.2s;
+	 position: absolute;
+	 color: #999;
+	 padding: 7px 6px;
+}
+ form textarea {
+	 display: block;
+	 resize: vertical;
+}
+ form.go-bottom input, form.go-bottom textarea {
+	 padding: 12px 0px 15px 0px;
+	 color:#534F4F;
+} 
+ form.go-bottom input:placeholder {
+	 color: #767676;
+} 
+form.go-bottom div:nth-child(even) input, form.go-bottom textarea {
+	 padding: 12px 12px 15px 0px;
+}
+.follow-sec-sec li img {
+    margin-right: 10px;
+}
+.contact-form-part h3 {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 27px;
+    text-transform: uppercase;
+    color: #343739;
+    margin-top: 0;
+    text-align: center;
+    padding-top: 10px;
+}
+ form.go-bottom label {
+	 top: 0;
+	 bottom: 0;
+	 left: 0;
+	 width: 100%;
+	 opacity: 0;
+}
+/* form.go-bottom input:focus, form.go-bottom textarea:focus {
+	 padding: 4px 6px 20px 6px;
+}*/
+ form.go-bottom input:focus + label, form.go-bottom textarea:focus + label {
+	 top: 0;
+    margin-top: 0;
+    bottom: unset;
+}
+ form.go-right label {
+	 top: 2px;
+	 right: 100%;
+	 width: 100%;
+	 margin-right: -100%;
+	 bottom: 2px;
+}
+ form.go-right input:focus + label, form.go-right textarea:focus + label {
+	 right: 0;
+	 margin-right: 0;
+	 width: 40%;
+	 padding-top: 5px;
+}
+.contact-form-part {
+    background: #FFFFFF;
+    border-radius: 20px;
+    float: left;
+    width: 100%;
+    padding: 40px;
+} 
+form.go-bottom div {
+    float: left;
+    width: 46%;
+    margin-right: 7px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #E3E3E3;
+    /*margin-right: 20px;*/
+    padding-bottom: 15px;
+}
+form.go-bottom div:last-child {
+    float: left;
+    width: 93%;
+}
+form.go-bottom div:nth-child(even) {
+    padding-left: 3%;
+}
+button.btn.submit {
+    background: #F58026;
+    border-radius: 10px;
+    width: 175px;
+    height: 50px;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+button.btn.submit svg path {fill:#fff;}
+.btn.submit svg  {margin-right:5px;}
+.form-submit{
+	display:inline-block;
+	width:100%;
+	text-align:center;
+}
+.footer-section {
+    background: url(../images/D4-logistics-best-trucking-company-t.png) no-repeat;
+    float: left;
+    width: 100%;
+	padding-top: 80px;
+}
+form.go-bottom input:focus~label{opacity:1;font-size: 13px;}
+ul.follow-sec-sec li:hover {
+    background: transparent;
+}
+/* End footer */
+
+/* mini footer */
+.got-it-mini-footer.col-lg-12 {
+    background: #FFFFFF;
+    box-shadow: 0px 7px 20px rgba(0, 0, 0, 0.12);
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.got-it-content p {
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    color: #696A6C;
+    margin: 0px 0px 11px 0px;
+}
+.got-it-content a {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    text-decoration-line: underline;
+    color: #696A6C;
+}
+.btn.got-btn {
+    border: 1.5px solid #F58026;
+    box-sizing: border-box;
+    border-radius: 10px;
+    background: transparent;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+    color: #F58026;
+    width: 150px;
+    height: 50px;
+}
+.got-it-button{text-align:right;}
+.copyright, .got-it-mini-footer {
+    float: left;
+    width: 100%;
+}
+.copyright {
+    background: #19508C;
+	padding-top:20px ;
+	padding-bottom:20px ;
+}
+.copyright-left p {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color: #DEE1E3;
+	margin-bottom:0;
+}
+.copyright-right span {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: right;
+    color: #DEE1E3;
+}
+.copyright-right{text-align:right;}
+/* End mini footer */
+
+/* position fixed */
+.fixed-down {
+    position: fixed;
+    right: 10px;
+    z-index: 999;
+    bottom: 166px;
+}
+.fixed-right {
+    position: fixed;
+    right: -62px;
+    -ms-transform: rotate(270deg);
+    transform: rotate(270deg);
+    z-index: 9;
+    top: 445px;
+}
+button.btn.quick-quote {
+    background: #F58026;
+    box-shadow: -2px 0px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 10px 10px 0px 0px;
+    width: 175px;
+    height: 50px;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.menu-icon-img{display:none;}
+/* End position fixed */
+
+#menu-top_idf{float:left; width:100%; height:0px; background:#fff;border:0;}
+#menu-section.stick {
+    position: fixed;
+    top: 0;
+    z-index: 10000;
+   width: 100%;
+    background: #c45b0a;
+}
+
+/* company profile start */
+
+.company_head h2{margin: 182px 0px 6px 0px;}
+.about_d4{padding: 100px 0px;float: left;width: 100%;}
+.about_content h1{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    text-transform: uppercase;
+    color: #272B30;
+    border-left: 3px solid #F58026;
+    padding-left: 20px;
+    margin-bottom: 40px;
+}
+.about_content p{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: #767A7D;
+    padding: 10px 0px;
+}
+.need_help{
+    background-image: url("../images/D4-logistics-best-trucking-company-need-help.png");
+    background-repeat: no-repeat;
+    opacity: 0.4;
+    padding:100px 0px;
+}
+.need_help h1{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.need_section{
+    padding: 60px 0px;
+}
+.need_section h2{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.simplify{
+    background-color:  #FFFFFF;
+    margin-top: -100px;
+}
+/* company profile end */
+
+/*serice 2 start*/
+.service2_img img.top_orange_bar{
+    width: 80px;
+    height: 3px;
+    position: absolute;
+    left: 33%;
+}
+span.orange_color{color:  #F58026;}
+.section_2_first{float: left; padding: 60px 0px;width: 100%;}
+.service2_img img{width: 100%;}
+.service2_right{
+    background: #F5F6F7;
+    border-radius: 10px;
+    padding-bottom: 10px;
+}
+.service2_ul img{
+    display: none;
+    float: left;
+    padding-right: 10px;
+    padding-top: 6px;
+}
+.service2_right h1{
+    padding: 10px 0px 25px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #272B30;
+    border-bottom: 1px solid #F58026;
+    margin-bottom: 20px;
+}
+.service2_ul{
+    padding: 10px 0px 0px;
+}
+.service2_ul li:hover img,.service2_ul li.active img{
+    display: block;
+}
+.service2_ul li{
+    padding-bottom: 30px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    color: #51565A;
+}
+.service2_ul li:hover,.service2_ul li.active{
+    cursor: pointer;
+    color: #19508C;
+    font-weight: bold;
+}
+.section_2_second{
+    padding: 0px 0px 50px;
+    float: left;
+    width: 100%;
+}
+.section_2_third{
+    float: left;
+    width: 100%;
+}
+.section_2_second h1{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    text-transform: uppercase;
+    color: #272B30;
+}
+.section_2_second p{
+    padding: 40px 0px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    color: #767A7D;
+    padding-bottom:  0px;
+}
+.service2_right_img{
+    background-image: url("../images/D4-logistics-best-trucking-company-services2_2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    padding-bottom: 10px;
+}
+.service2_right_img h1{
+    padding: 15px 0px 0px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.service2_right_img h2{
+    margin: 0px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+    color: #F58026;
+}
+.service2_right_img h3{
+    padding-top: 25px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: #B7B7B7;
+}
+span.services2_email{
+    padding-left: 20px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+span.phone_bottom{
+    padding-bottom: 20px;
+}
+.service2_third h1{
+    margin: 0px;
+    padding-bottom: 40px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 49px;
+    text-transform: uppercase;
+    color: #272B30;
+}
+.service2_third p{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    color: #767A7D;
+    padding-bottom: 40px;
+}
+.benefits_top{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.service2_third h2{
+    margin-left: 20px;
+    padding-left: 10px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 30px;
+    color: #505356;
+    border-left: 1px solid #F58026;
+}
+/*serice 2 ends*/
+
+/*list start*/
+.list_left_border{
+    border-left: 2px solid #F58026;
+    margin: 182px 0px 6px 0px;
+    padding-left: 10px;
+}
+.list2_head{
+    padding:30px 0px;
+    float: left;
+    width: 100%;
+    border-bottom: 1px solid #D3D3D3;
+    margin-bottom: 60px;
+}
+.list2_head i.three_line{
+   color: #F58026;
+}
+
+.list2_head i.list_three_lines{
+    border-left: 1px solid #C4C4C4;
+    margin-left: 20px;
+    padding-left: 20px;
+    padding-right: 60px;
+}
+.list2_head label{
+    padding-right: 20px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color: #6A6767;
+}
+.list2_head select{
+    border: none;
+    border-bottom: 1px solid #BDBDBD;
+    padding-bottom: 5px;
+    width: 160px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    color: #403F3F;
+    background-color: #fff;
+}
+.list2_head button,.details_button button{float: right;}
+.list2_head button.prev,.details_button button.prev{
+    margin-right: 20px;
+    padding: 7px 27px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    color: #929292;
+    background: #FFFFFF;
+    border: 1px solid #C4C4C4;
+    box-sizing: border-box;
+    border-radius: 6px;
+}
+.list2_head button.prev:hover,.details_button button.prev:hover{
+    border: 1px solid #F58026;
+    color: #F58026;
+}
+/*.list2_head button.next,.details_button button.next{
+    padding: 7px 27px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    color: #F58026;
+    background: #FFFFFF;
+    border: 1px solid #F58026;
+    box-sizing: border-box;
+    border-radius: 6px;
+}*/
+.list2_first{
+    border-bottom: 1px solid #E1E1E1;
+    margin-bottom: 20px!important;
+    width: 100%;
+    float: left;
+}
+.calander_section{
+    padding:20px 0px;
+    float: left;
+    display: inline-block;
+}
+.calander_section label,.admin_section label{
+    padding-left: 15px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 20px;
+    color: #474242;
+}
+.admin_section{
+    padding:20px 0px;
+    float: right;
+    display: inline-block;
+}
+.list2_card_head h1{
+    padding-bottom: 10px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 27px;
+    color: #474242;
+}
+.list2_card_head p{
+    padding-bottom: 20px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 36px;
+    color: #787676; 
+}
+.list2_card_head a{
+    float: left;
+    padding-bottom: 40px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: #F58026; 
+}
+.list2_card_border{
+    margin-bottom: 30px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 12px 3px rgba(0, 0, 0, 0.07);
+    border-radius: 20px;
+     border-top: 10px solid #19508C;
+}
+.list2_card_border:hover{
+    border-top: 10px solid #F58026;
+}
+.list_right_main1
+{
+    background: #FFFFFF;
+    border: 1px solid #E7E7E7;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+.list_right_main1 h1{
+    padding: 30px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 27px;
+    text-transform: uppercase;
+    color: #272B30;
+    border-bottom: 2px solid #F58026;
+}
+.list2_ul {
+    padding: 30px 30px 0px;
+}
+.folder_right{
+    padding-right: 10px;
+}
+.list2_ul li{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    color: #797C7F;
+    padding-bottom: 40px;
+}
+.list2_ul li:hover{
+    color: #F58026;
+    cursor: pointer;
+}
+.achives_top{
+    margin: 40px 0px;
+}
+.pagination a {
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color: #9A9A9A;
+    margin: 10px 5px;
+}
+.pagination-sec {
+    /*padding: 25px;*/
+    display: flex;
+    justify-content: flex-end;
+}
+.pagination-sec1{
+    float: right;
+}
+.pagination a.active {
+    background: #3498DB;
+    border: 1px solid #3498DB;
+    color: white !important;
+    padding: 5px;
+    border-radius: 10px;
+    height: 34px;
+    width: 34px;
+    text-align: center;
+    margin: 5px 5px;
+}
+.details_button{
+    padding: 40px 0px;
+    padding-right: 50px;
+    float: right;
+}
+.details_card_main{
+    padding-top: 60px;
+    float: left;
+}
+/*list end*/
+
+
+
+
+
+/* BL_company profile strat*/
+.about_d4_img {
+    float: left;
+    width: 100%;
+}
+
+.about_d4_img img {
+    max-width: 100%;
+    width: 100%;
+}
+
+/*END*/
+
+/********************** 02a_Services 1 - All Categories start ****************************/
+
+.BL_services { border-left: 3px solid #F58026; padding-left: 10px; border-radius: 1px;  }
+
+.BL_special_services_img1{ background-image: url("../images/D4-logistics-best-trucking-company-MaskGroup.png");height: 590px; background-repeat: no-repeat;  background-size: cover; max-height: 100%;float: left; width: 100%;position: relative; border-radius: 20px;}
+
+.BL_special_services_img2 { background-image: url("../images/D4-logistics-best-trucking-company-Mask Group (2).png");height: 590px; background-repeat: no-repeat;  background-size: cover; max-height: 100%; float: left; width: 100%;position: relative; border-radius: 20px; }
+
+.BL_special_services_img3 { background-image: url("../images/D4-logistics-best-trucking-company-Mask Group (3).png");height: 590px; background-repeat: no-repeat;  background-size:cover; max-height: 100%; float: left; width: 100%;position: relative; border-radius: 20px; }
+
+.BL_special_services_img4 { background-image: url("../images/D4-logistics-best-trucking-company-Mask Group (4).png");height: 590px; background-repeat: no-repeat;  background-size: cover; max-height: 100%; float: left; width: 100%;position: relative; border-radius: 20px; }
+
+.BL_special_services_img5 { background-image: url("../images/D4-logistics-best-trucking-company-Mask Group (5).png");height: 590px; background-repeat: no-repeat;  background-size: cover; max-height: 100%; float: left; width: 100%;position: relative; border-radius: 20px; }
+
+.BL_special_services_img6 { background-image: url("../images/D4-logistics-best-trucking-company-Mask Group (3).png");height: 590px; background-repeat: no-repeat;  background-size: cover; max-height: 100%; float: left; width: 100%;position: relative;border-radius: 20px;  }
+
+.container.BL_container {  width: 100%; float: none; display: table; padding-top: 100px; }
+
+.BL_special_services_img1 h1,.BL_special_services_img2 h1,.BL_special_services_img3 h1,.BL_special_services_img4 h1,.BL_special_services_img5 h1,.BL_special_services_img6 h1{ font-size: 16px; line-height: 27px; color: #FFFFFF; text-transform: uppercase; font-family: Open Sans;  font-style: normal; font-weight: bold; width: auto; height: auto; float: left;}
+
+.BL_special_services_img1 img {  width: 90px; height: 67px; max-width: 100%; object-fit: contain; margin:0px 5px;}
+
+.BL_special_services_img2 img,.BL_special_services_img3 img,.BL_special_services_img4 img,.BL_special_services_img5 img,.BL_special_services_img6 img {  width: 106px; height: 67px; max-width: 100%; object-fit: cover; margin:0px 5px;}
+
+.BL_special_services_inner { position: absolute; width: 100%; bottom: 10px; padding: 0px 9px 30px; float: left; height: 226px;}
+
+.BL_special_services_inner p{width: 100%; float:left; color: #fff; font-family: Open Sans; font-style: normal; line-height: 25px; font-size: 15px; }
+
+.BL_special_services_inner a{ width: 100%; float:left;color: #F58026; font-size: 14px; line-height: 19px; text-transform: uppercase;font-family: Open Sans; font-style: normal;font-weight: bold;  }
+
+.BL_special_services_inner span {  width: auto; height: auto; float: left;}
+
+.BL_special_services_inner .BL_special_services_text {float: left; width: 100%; display: flex;}
+
+
+
+
+/************02a_Services 1 - All Categories END*************/
+
+
+
+/**************************************************CONTACT DETAILS Start*****************************************************************/
+
+
+.BL_contact_detalis { display: block; width: 100%; text-align: center; }
+
+.BL_contact_detalis h1 { font-weight: bold; font-size: 36px; line-height: 49px;  text-align: center; text-transform: uppercase; color: #272B30; margin: 0 0 10px 0; }
+
+.BL_contact_detalis h3 {  font-size: 14px; text-align: center; line-height: 22px; color: #53575B; font-family: Open Sans; font-style: normal; font-weight: normal;}
+
+.BL_contact{ background: #FAF8F7; display: block; width: 100%; float: left; }
+
+.BL_contact_detalis_inner { background: #FFF; padding: 10px 13px; border-radius: 10px; margin: 50px 0px 100px 0px; text-align: center;height: 160px;}
+
+.BL_contact_detalis_inner h1 { font-size: 20px; line-height: 27px; color: #272B30; text-transform: uppercase; font-weight: bold; margin-top: 0px; }
+
+.BL_contact_detalis_inner p  { font-size: 14px; font-family: Open Sans; font-style: normal; font-weight: normal; color: #53575B; text-align: center; line-height: 22px; }
+
+ul.BL_icon {  float: none; width: 200px; display: flex; justify-content: space-between; align-items: center; margin: 0px auto;}
+
+
+
+ul.BL_icon li a { justify-content: center;  font-size: 22px; color: #C9C9C9;  background:#FAF8F7; border-radius: 5px; padding: 0px; width: 45px;  float: left;  height: 40px;  text-align: center; display: flex; align-items: center; transition: 0.3s; -webkit-transition: 0.3s;}
+
+ul.BL_icon li a:hover { background: #F58026; border-radius: 5px;  color: #FFFFFF;  }
+
+.BL_work_hours_text { display: block; width: 100%; text-align: center;  float: left; background: #19508C; border-radius: 20px; position: relative; top: -75px;}
+
+.BL_work_hours_text h1{  color: #FFFFFF; font-weight: bold; font-size: 36px; line-height: 49px;  text-align: center; text-transform: uppercase;  margin: 10 0 10px 0; }
+
+.BL_work_day {  width: auto; }
+
+.BL_work_day li { width: 206px; display: inline-block; float: left; margin: 15px; background: #fff; border-radius: 10px; }
+
+.BL_work_day h1{ font-size: 20px; line-height: 27px; color: #272B30; text-transform: uppercase; font-weight: bold; }
+
+.BL_work_day h1:hover { color:#F58026; }
+
+.BL_Work_inner { display: flex; width: 100%; float: left;   margin: 40px 0px;flex-wrap: wrap; justify-content: center;}
+
+.BL_fst_nam h1 { color: #767676; line-height: 20px; font-size: 15px; }
+
+.BL_fst_nam span { color: red; }
+
+.BL_fst_nam input { border:none; outline: none; width: 100%; color: #534F4F; font-size: 17px; line-height: 23px; font-weight: 600;}
+
+.BL_input_txt{  border-bottom: 2px solid #19508C; padding-bottom: 10px;  }
+
+ul.BL_choose {  padding: 0px 20px;}
+
+ul.BL_choose h5 { font-size: 15px; color: #767676; line-height: 20px; }
+
+ul.BL_choose li { color: #6F7377; padding: 5px 5px; list-style-type: circle; font-weight: normal; font-family: open Sans; font-style: normal;}
+
+ul.BL_choose li :hover { color: #19508C; font-size: 17px; font-weight: 600}
+
+.BL_email_txt input,.BL_your_msg input { border:none; width: 100%;outline: none;  font-size: 17px; line-height: 23px; font-weight: 600; color: #534F4F; }
+
+.BL_email_txt { display: block; border-bottom: 2px solid #19508C; margin-top: 48px;    padding-bottom: 10px;}
+
+.BL_your_msg { border-bottom: 2px solid #19508C; padding-bottom: 10px; margin-top: 50px; }
+
+.BL_contact_detalis_inner_img { background: #fff; width: 60px; margin: 0px auto; position: relative; border-radius: 50%; top: -41px;  height: 60px;}
+
+.BL_contact_detalis_inner_img img { position: absolute; right: 14px; top: 10px; width: 30px; height: 30px;}
+
+.BL_fst_nam { display: block; width: 100%; padding: 0px 10px;}
+
+ .fb9 { border: 1px solid #3366FF; background-color: #B3C6FF; width:150px; height:30px;}
+
+ .BL_robat { margin: 20px 0px; display: flex;}
+
+ button.btn.submit.BL_btn.submit { margin-left: 20px; outline: none;    width: 220px;margin-top: 11px;}
+
+ iframe { height: 500px; } 
+
+/******************************************END****************************************/
+
+/**************************************Transit Calculator************************************************/
+
+.BL_Transit{ background: #FAF8F7;display: block; width: 100%; float: left;}
+
+.container.BL_transit { background: #fff; width: 100%; border-radius: 10px; margin: 30px auto; }
+
+.BL_Label label { display: block; color: #767676; font-size: 15px; line-height: 17px; font-weight: normal; margin: 10px 0px;}
+
+.BL_Label {   padding: 20px 30px; }
+
+.BL_Label input { border:none; width: 50%;outline: none;  font-size: 17px; line-height: 23px; font-weight: 600; color: #534F4F; border-bottom: 2px solid #19508C; padding-bottom: 10px;} 
+
+.BL_input img {  margin: 0px 30px;width: 54px; height: 46px; background: #FAF8F7; padding: 10px;  border-radius: 50% ;margin-left: 25%; }
+
+.BL_map_sec_text { background: #19508C; box-shadow: 0px 1px 15px rgba(0, 0, 0, 0.1);  border-radius: 20px; width: 100%;  float: left; position: relative;  top: -35px; padding: 20px;}
+
+.BL_mapheading h1,.BL_mapheading p {  font-family: Open Sans; font-style: normal; font-weight: normal; font-size: 20px; line-height: 27px; color: #FFFFFF; }
+
+.BL_mapheading h1 span { color: #F58026; }
+
+.BL_mapheading { width: 60%;  float: left;  display: block;}
+
+.BL_mapheading2 { width: 40%; float: right; margin: auto; text-align: right;}
+
+.BL_mapheading2 h1,.BL_mapheading2 p { font-family: Open Sans; font-style: normal; font-weight: 600; font-size: 20px; line-height: 27px; text-align: right; color: #FFFFFF; }
+
+
+
+/*************************************END**************************************/
+
+
+.BL_contact_detalis.BL_transit_text { margin-top: 30px;  float: left;}
+
+.BL_contact_detalis.BL_transit_text h2 { text-align: left; color: #343739; text-transform: uppercase; font-weight: bold;  font-size: 20px;  line-height: 27px;    padding: 0px 10px;}
+
+.col-lg-8.col-md-8.col-sm-12.col-xs-12.BL_backimg::before {background-image: url(../images/D4-logistics-best-trucking-company-Layer.png);  position: absolute;   content: "";  bottom: -50px;  left: 0px; height: 590px;  background-repeat: no-repeat;  background-size: contain;  max-height: 100%; float: left; width: 100%;  background-position: right;}
+
+.col-lg-8.col-md-8.col-sm-12.col-xs-12.BL_backimg.BL_backimg1::before{ bottom: 20px; }
+
+.col-lg-8.col-md-8.col-sm-12.col-xs-12.BL_backimg  { position: relative; float: left;  }
+
+
+/*qa issues*/
+.homepage_banner{margin-left: 150px!important; margin-top: 25px!important;}
+.fel-part span{ width: 157px; margin: 0px auto;}
+.fel-part_padd{padding: 65.5px 0px;}
+.fel-part_wid{width: 19%;}
+.go-bottom span{color: red;}
+.home_bottom_line {border-bottom: 1px solid #19508C!important;}
+.scroll-top img,.msg-popup img{width: 72px;height: 72px;}
+.fixed-downs{bottom: 60px;}
+.about_section_main {
+    width: 88%!important;
+    background-color: #FFFFFF;
+    z-index: 10;
+    float: left;
+    border-radius: 0px 20px 0px 0px;
+}
+/* end qa issues*/
+
+/*balaji qa*/
+
+.BL_special_services_inner.BL_height_text p {
+    height: 100px;
+}
+.BL_email_txt label {
+    position: absolute;
+    top: 36px;
+    font-size: 15px;
+    line-height: 20px;
+    color: #767676;
+    text-transform: capitalize;
+}
+.BL_email_txt label span {
+    color: red;
+}
+
+
+
+/* end balaji qa*/
+
+
+/*************************************10.09.20***************************************************/
+
+
+.about_d4_img {
+    float: left;
+    width: 100%;
+}
+
+.about_d4_img img {
+    max-width: 100%;
+    width: 100%;
+}
+
+.about_content.col-lg-6 {
+    float: left;
+}
+
+.need_help {
+ 
+    float: left;
+    width: 100%;
+    background-size: cover;
+    opacity: 1;
+}
+
+.simplify {
+    background-color: #FFFFFF;
+    margin-top: -100px;
+    border-radius: 0px 50px 0px 0px;
+        padding-left: 90px;
+    margin-left: -14px;
+}
+
+
+
+.testimonial.t-a {
+    position: relative;
+    float: left;
+}
+
+.list_btn {
+    display: inline-block;
+    float: right;
+}
+
+.list2_head button.prev, .details_button button.prev { outline: none; }
+
+.BL_Label {
+    padding: 20px 7px;
+}
+
+.BL_mapheading {
+    width: 100% !important;
+  
+}
+
+.BL_mapheading2 { width: unset !important; color: #FFFFFF !important; }
+
+
+
+.BL_special_services_sec2 {
+    background: #19508C;
+    border-radius: 20px;
+    height: 590px;
+    padding: 0px 10px;
+    display: none;
+    
+}
+
+.BL_special_services_img1:hover .BL_special_services_sec2 { display: block; z-index: 1;position: relative; }
+
+.BL_special_services_img1:hover .BL_special_services_text { opacity: 0 }
+
+.BL_special_services_img2:hover .BL_special_services_sec2 { display: block; z-index: 1;position: relative; }
+
+.BL_special_services_img2:hover .BL_special_services_text { opacity: 0 }
+
+
+.BL_special_services_img3:hover .BL_special_services_sec2 { display: block; z-index: 1;position: relative; }
+
+.BL_special_services_img3:hover .BL_special_services_text { opacity: 0 }
+
+.BL_special_services_img4:hover .BL_special_services_sec2 { display: block; z-index: 1;position: relative; }
+
+.BL_special_services_img4:hover .BL_special_services_text { opacity: 0 }
+
+.BL_special_services_img5:hover .BL_special_services_sec2 { display: block; z-index: 1;position: relative; }
+
+.BL_special_services_img5:hover .BL_special_services_text { opacity: 0 }
+
+.BL_special_services_img6:hover .BL_special_services_sec2 { display: block; z-index: 1;position: relative; }
+
+.BL_special_services_img6:hover .BL_special_services_text { opacity: 0 }
+
+.BL_special_services_inner .BL_height_text :hover { opacity: 0 }
+
+.BL_special_services_sec2 h1 {
+    width: 100%;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 49px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 170px;
+}
+
+.BL_special_services_sec2 h1:before{
+
+    content: "";
+    border-top: 3px solid  #F58026;
+    width: 20%;
+    display: block;
+    position: relative;
+    left: 133px;
+    
+
+
+}
+
+.BL_special_services_sec2 p {
+
+    font-family: Open Sans;
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 42px;
+text-align: center;
+color: #FFFFFF;
+}
+
+
+
+.testimonial.t-a.bennerhome_img.home_height img {
+    height: auto;
+}
+
+
+
+
+
+
+/**********************************************************************************************/
+
+.indi{ bottom: -50px !important;}
+
+
+.indi .active{
+    
+    background: transparent !important;
+border: 2px solid #F58026 !important;
+    
+    }
+    
+.indi li{   
+    background: transparent !important;
+border: 2px solid #acacac !important;
+}
+
+.txt-appr h2{
+    animation: head;
+    animation-duration: 3s;
+    position: relative;
+    animation-fill-mode:forwards;
+}
+@keyframes head{
+    0%{top:5px;}
+    100%{top:100px;}
+}
